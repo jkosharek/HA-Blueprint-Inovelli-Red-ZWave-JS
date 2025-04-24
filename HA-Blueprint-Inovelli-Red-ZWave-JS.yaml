@@ -8,8 +8,10 @@ blueprint:
       description: Inovelli Switch.
       selector:
         device:
+          integration: zwave_js
           manufacturer: Inovelli
-          multiple: true
+          model: VZW31-SN
+          multiple: false
     config_held:
       name: Hold Config
       description: Action to run
