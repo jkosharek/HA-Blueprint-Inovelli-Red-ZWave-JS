@@ -8,7 +8,6 @@ blueprint:
       description: Inovelli Switch.
       selector:
         device:
-          integration: zwave_js
           manufacturer: Inovelli
           multiple: true
     config_held:
