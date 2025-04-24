@@ -1,6 +1,6 @@
 blueprint:
   name: Inovelli Red (ZWave-JS)
-  description:
+  description: Home Assistant Blueprint for Inovelli Red Switches Running in ZWave-JS
   domain: automation
   input:
     switch:
